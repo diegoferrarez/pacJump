@@ -38,7 +38,6 @@ const loop = setInterval(() => {
 
 }, 10);
 
-document.addEventListener('keypress', jump)
 document.addEventListener('beforeinput', jump)
 document.addEventListener('keydown', jump)
 document.addEventListener('input', jump)
