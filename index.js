@@ -40,3 +40,4 @@ const loop = setInterval(() => {
 
 document.addEventListener('beforeinput', jump)
 document.addEventListener('keydown', jump)
+document.addEventListener('input', jump)
