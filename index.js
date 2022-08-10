@@ -38,6 +38,5 @@ const loop = setInterval(() => {
 
 }, 10);
 
-document.addEventListener('touchstart', jump)
-document.addEventListener('touchmove', jump)
+document.addEventListener('beforeinput', jump)
 document.addEventListener('keydown', jump)
