@@ -32,9 +32,12 @@ const loop = setInterval(() => {
         mario.style.marginLeft = '50px'
 
         clearInterval(loop);
+        
 
     }
 
 }, 10);
 
+document.addEventListener('touchstart', jump)
+document.addEventListener('touchmove', jump)
 document.addEventListener('keydown', jump)
